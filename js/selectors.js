@@ -2,3 +2,7 @@
 function paragraphSelector(){
   return $('p')
 }
+
+function lastImageSelector(){
+  return $('#pic-list li:third-child')
+}
